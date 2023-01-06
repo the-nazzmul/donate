@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* Header Section */
+.banner {
+    background-image: url(../images/donation1.jpg);
+    background-repeat: no-repeat;
+    padding: 50px 200px;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    /* height: 500px; */
+    background-color: grey;
+    background-blend-mode: multiply;
+}
+
+.header {
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+.title {
+    /* margin: auto; */
+    margin: 80px auto 50px auto;
+    font-size: 60px;
+    width: 800px;
+}
+
+.section-description {
+    margin: 0px auto 50px auto;
+    width: 600px;
+    font-size: 16px;
+}
+
+.btn-primary {
+    height: 45px;
+    background: rgb(238, 68, 30);
+    padding: 5px 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+}
+
+/* Donation Section */
+.donation-section {
+    text-align: center;
+}
+
+.section-title {
+    margin: 100px 0 20px;
+
+}
+
+.donation-section .section-description {
+    color: rgb(126, 123, 123);
+}
+
+.amount-container ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 10px
+}
+
+ul li {
+    padding: 30px;
+    font-size: 25px;
+    color: grey;
+    background: rgb(249, 246, 246);
+    margin-bottom: 50px
+}
+
+.other-amount {
+    /* outline: none; */
+    width: 600px;
+    border-width: 0 0 2px;
+    text-align: center;
+    border-color: rgb(241, 236, 236);
+    margin: 30px 0;
+    /* background-color: rgb(253, 252, 252); */
+    padding: 10px 0px;
+}
+
+/* Donation Plan Section */
+.donation-plan {
+    text-align: center;
+}
+
+.donation-plan .section-description {
+    color: rgb(126, 123, 123);
+}
+
+.donation-sectors-container {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    gap: 15px;
+    margin: 50px 200px;
+    padding: 10px 50px;
+
+}
+
+.donation-for-food {
+    background-color: rgb(230, 255, 254);
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.donation-for-shelter {
+    background-color: rgb(255, 225, 229);
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.donation-for-education {
+    background-color: rgb(255, 234, 187);
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.donation-sector-icon {
+    margin: 30px 0;
+}
+
+.donation-sector-title {
+    margin-bottom: 30px;
+}
+
+.donation-sector-description {
+    margin-bottom: 50px;
+    font-size: 15px;
+    color: rgb(126, 123, 123);
+
+}
+
+/* info division */
+.info-section-container1 {
+    display: flex;
+    margin: 50px 200px;
+    padding: 10px 50px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.info-section-container1 .picture-block {
+    height: 350px;
+    width: 350px;
+    background-image: url(../images/donation7.jpg);
+    padding: 30px;
+    margin: 50px;
+    background-color: aquamarine;
+    border-radius: 10px;
+
+}
+
+.info-section-description {
+    max-width: 300px;
+    margin-bottom: 20px;
+    color: rgb(126, 123, 123);
+}
+
+.info-section-container2 .picture-block {
+    height: 350px;
+    width: 350px;
+    background-image: url(../images/donation0.jpg);
+    padding: 30px;
+    margin: 50px;
+    background-color: aquamarine;
+    border-radius: 10px;
+
+}
+
+.info-section-container2 {
+    display: flex;
+    margin: 50px 200px;
+    padding: 10px 50px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.update-section {
+    text-align: center;
+}
+
+.update-section .section-description {
+    color: rgb(126, 123, 123);
+}
+
+.subscribe {
+
+    background-color: rgb(255, 234, 187);
+    margin: 100px 200px;
+    height: 200px;
+
+}
+
+.input {
+    display: flex;
+    padding: 0 150px;
+    position: relative;
+    border: none;
+
+}
+
+input[type=email] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 80px 0 80px 150px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 80px 150px 80px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: rgb(238, 68, 30);
+    color: white;
+}
+
+/* Footer section */
+footer {
+    background-color: black;
+    height: 200px;
+    text-align: center;
+}
+
+.footer-title {
+    font-style: italic;
+    color: rgb(238, 68, 30);
+    font-size: 40px;
+    padding: 40px 0 20px 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+
+.footer-message {
+    color: white;
+    font-size: 15px;
+}
